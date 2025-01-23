@@ -1,0 +1,146 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del elemento */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+.containerPost {
+    width: 80%;
+    max-width: 700px;
+    border: 2px solid #444; /* Añadido borde */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+    padding: 20px; /* Añadido padding para mejor apariencia */
+    margin-bottom: 20px; /* Añadido margen inferior para separación */
+    background-color: #f0f8ff; /* Color de fondo suave */
+}
+header {
+    background: #444;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.showcase {
+    min-height: 400px;
+    background: url('../images/learning_English_and_Spanish.png') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.showcase h1 {
+    margin-top: 0;
+    font-size: 55px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000;
+}
+.showcase p {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000;
+}
+.content {
+    padding: 20px;
+    background: #444;
+}
+.content h2 {
+    color: #333;
+}
+.content p {
+    margin-bottom: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+.menu-btn {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-btn.active {
+    display: block;
+}
+.menu {
+    display: none;
+}
+.menu.active {
+    display: block;
+}
+@media (max-width: 768px) {
+    header nav {
+        float: none;
+        text-align: center;
+    }
+    header li {
+        display: block;
+        padding: 10px 0;
+    }
+    .showcase h1 {
+        font-size: 40px;
+    }
+    .showcase p {
+        font-size: 18px;
+    }
+    .menu-btn {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: block;
+    }
+}
+.highlight {
+    background-color: yellow;
+}
+.study-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
