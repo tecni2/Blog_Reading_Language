@@ -7,10 +7,13 @@
 - **Resaltar palabras**: Selecciona palabras o frases con el mouse para resaltarlas en amarillo.
 - **Agregar a la lista de estudio**: Haz clic derecho en las palabras resaltadas para agregarlas a una lista de estudio.
 
--**Falta por agregar**
+- **Mantener palabras resaltadas**: (Pendiente de implementación) Las palabras resaltadas se mantendrán incluso después de recargar la página.
 
-- **Mantener palabras resaltadas**: Las palabras resaltadas se mantienen incluso después de recargar la página.
-- **Eliminar palabras**: Incluye un botón de eliminación al lado de cada palabra en la lista de estudio para poder eliminarla fácilmente.
+- **Eliminar palabras**: (Pendiente de implementación) Incluirá un botón de eliminación al lado de cada palabra en la lista de estudio para poder eliminarla fácilmente.
+
+## Demo
+
+Puedes ingresar al demo desde [aquí](https://reading-language.netlify.app/).
 
 - **Contacto**
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de tecni2.elie.elie@gmail.com.
